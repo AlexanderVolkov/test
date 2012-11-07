@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AE9C9F1618C87E00CC3725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE9C9E1618C87E00CC3725 /* UIKit.framework */; };
+		80AE9CA11618C87E00CC3725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE9CA01618C87E00CC3725 /* Foundation.framework */; };
+		80AE9CA31618C87E00CC3725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE9CA21618C87E00CC3725 /* CoreGraphics.framework */; };
+		80AE9CA91618C87E00CC3725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80AE9CA71618C87E00CC3725 /* InfoPlist.strings */; };
+		80AE9CAB1618C87E00CC3725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9CAA1618C87E00CC3725 /* main.m */; };
+		80AE9CAF1618C87E00CC3725 /* HappySmilerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9CAE1618C87E00CC3725 /* HappySmilerAppDelegate.m */; };
+		80AE9CB21618C87E00CC3725 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AE9CB01618C87E00CC3725 /* iPhone.storyboard */; };
+		80AE9CB51618C87E00CC3725 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AE9CB31618C87E00CC3725 /* MainStoryboard_iPad.storyboard */; };
+		80AE9CB81618C87E00CC3725 /* HappySmilerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9CB71618C87E00CC3725 /* HappySmilerViewController.m */; };
+		80F9A6591618C93800F2B9AD /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F9A6581618C93800F2B9AD /* FaceView.m */; };
+		80F9A65C1618CA3E00F2B9AD /* SmileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F9A65B1618CA3E00F2B9AD /* SmileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80AE9C9A1618C87E00CC3725 /* HappySmiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappySmiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AE9C9E1618C87E00CC3725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80AE9CA01618C87E00CC3725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80AE9CA21618C87E00CC3725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80AE9CA61618C87E00CC3725 /* HappySmiler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappySmiler-Info.plist"; sourceTree = "<group>"; };
+		80AE9CA81618C87E00CC3725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80AE9CAA1618C87E00CC3725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AE9CAC1618C87E00CC3725 /* HappySmiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappySmiler-Prefix.pch"; sourceTree = "<group>"; };
+		80AE9CAD1618C87E00CC3725 /* HappySmilerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappySmilerAppDelegate.h; sourceTree = "<group>"; };
+		80AE9CAE1618C87E00CC3725 /* HappySmilerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappySmilerAppDelegate.m; sourceTree = "<group>"; };
+		80AE9CB11618C87E00CC3725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		80AE9CB41618C87E00CC3725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		80AE9CB61618C87E00CC3725 /* HappySmilerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappySmilerViewController.h; sourceTree = "<group>"; };
+		80AE9CB71618C87E00CC3725 /* HappySmilerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappySmilerViewController.m; sourceTree = "<group>"; };
+		80F9A6571618C93800F2B9AD /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		80F9A6581618C93800F2B9AD /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		80F9A65A1618CA3E00F2B9AD /* SmileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileViewController.h; sourceTree = "<group>"; };
+		80F9A65B1618CA3E00F2B9AD /* SmileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AE9C971618C87E00CC3725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE9C9F1618C87E00CC3725 /* UIKit.framework in Frameworks */,
+				80AE9CA11618C87E00CC3725 /* Foundation.framework in Frameworks */,
+				80AE9CA31618C87E00CC3725 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AE9C8F1618C87E00CC3725 = {
+			isa = PBXGroup;
+			children = (
+				80AE9CA41618C87E00CC3725 /* HappySmiler */,
+				80AE9C9D1618C87E00CC3725 /* Frameworks */,
+				80AE9C9B1618C87E00CC3725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AE9C9B1618C87E00CC3725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AE9C9A1618C87E00CC3725 /* HappySmiler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AE9C9D1618C87E00CC3725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80AE9C9E1618C87E00CC3725 /* UIKit.framework */,
+				80AE9CA01618C87E00CC3725 /* Foundation.framework */,
+				80AE9CA21618C87E00CC3725 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AE9CA41618C87E00CC3725 /* HappySmiler */ = {
+			isa = PBXGroup;
+			children = (
+				80AE9CAD1618C87E00CC3725 /* HappySmilerAppDelegate.h */,
+				80AE9CAE1618C87E00CC3725 /* HappySmilerAppDelegate.m */,
+				80AE9CB01618C87E00CC3725 /* iPhone.storyboard */,
+				80F9A65A1618CA3E00F2B9AD /* SmileViewController.h */,
+				80F9A65B1618CA3E00F2B9AD /* SmileViewController.m */,
+				80F9A6571618C93800F2B9AD /* FaceView.h */,
+				80F9A6581618C93800F2B9AD /* FaceView.m */,
+				80AE9CB31618C87E00CC3725 /* MainStoryboard_iPad.storyboard */,
+				80AE9CB61618C87E00CC3725 /* HappySmilerViewController.h */,
+				80AE9CB71618C87E00CC3725 /* HappySmilerViewController.m */,
+				80AE9CA51618C87E00CC3725 /* Supporting Files */,
+			);
+			path = HappySmiler;
+			sourceTree = "<group>";
+		};
+		80AE9CA51618C87E00CC3725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AE9CA61618C87E00CC3725 /* HappySmiler-Info.plist */,
+				80AE9CA71618C87E00CC3725 /* InfoPlist.strings */,
+				80AE9CAA1618C87E00CC3725 /* main.m */,
+				80AE9CAC1618C87E00CC3725 /* HappySmiler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AE9C991618C87E00CC3725 /* HappySmiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AE9CBB1618C87E00CC3725 /* Build configuration list for PBXNativeTarget "HappySmiler" */;
+			buildPhases = (
+				80AE9C961618C87E00CC3725 /* Sources */,
+				80AE9C971618C87E00CC3725 /* Frameworks */,
+				80AE9C981618C87E00CC3725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappySmiler;
+			productName = HappySmiler;
+			productReference = 80AE9C9A1618C87E00CC3725 /* HappySmiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AE9C911618C87E00CC3725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HappySmiler;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Omnigon;
+			};
+			buildConfigurationList = 80AE9C941618C87E00CC3725 /* Build configuration list for PBXProject "HappySmiler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80AE9C8F1618C87E00CC3725;
+			productRefGroup = 80AE9C9B1618C87E00CC3725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AE9C991618C87E00CC3725 /* HappySmiler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AE9C981618C87E00CC3725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE9CA91618C87E00CC3725 /* InfoPlist.strings in Resources */,
+				80AE9CB21618C87E00CC3725 /* iPhone.storyboard in Resources */,
+				80AE9CB51618C87E00CC3725 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AE9C961618C87E00CC3725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE9CAB1618C87E00CC3725 /* main.m in Sources */,
+				80AE9CAF1618C87E00CC3725 /* HappySmilerAppDelegate.m in Sources */,
+				80AE9CB81618C87E00CC3725 /* HappySmilerViewController.m in Sources */,
+				80F9A6591618C93800F2B9AD /* FaceView.m in Sources */,
+				80F9A65C1618CA3E00F2B9AD /* SmileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80AE9CA71618C87E00CC3725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AE9CA81618C87E00CC3725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80AE9CB01618C87E00CC3725 /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AE9CB11618C87E00CC3725 /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		80AE9CB31618C87E00CC3725 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AE9CB41618C87E00CC3725 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AE9CB91618C87E00CC3725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AE9CBA1618C87E00CC3725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AE9CBC1618C87E00CC3725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappySmiler/HappySmiler-Prefix.pch";
+				INFOPLIST_FILE = "HappySmiler/HappySmiler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80AE9CBD1618C87E00CC3725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappySmiler/HappySmiler-Prefix.pch";
+				INFOPLIST_FILE = "HappySmiler/HappySmiler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AE9C941618C87E00CC3725 /* Build configuration list for PBXProject "HappySmiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AE9CB91618C87E00CC3725 /* Debug */,
+				80AE9CBA1618C87E00CC3725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AE9CBB1618C87E00CC3725 /* Build configuration list for PBXNativeTarget "HappySmiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AE9CBC1618C87E00CC3725 /* Debug */,
+				80AE9CBD1618C87E00CC3725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AE9C911618C87E00CC3725 /* Project object */;
+}
